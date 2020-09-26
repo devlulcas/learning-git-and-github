@@ -14,3 +14,4 @@ git log = mostra um log de commits
 
 git status = mostra o estado dos seus arquivos
 
+git branch -D nome_branch = deleta a branch sem dó 
