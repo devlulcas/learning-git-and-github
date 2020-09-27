@@ -14,6 +14,8 @@ git log = mostra um log de commits
 
 git status = mostra o estado dos seus arquivos
 
+git show = mostra as ultima alterações realizadas
+
 # Uso das branchs (Ramos)
 git branch nome_branch = cria nova ramificação do projeto
 
