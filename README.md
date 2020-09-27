@@ -6,7 +6,9 @@
 # Adicionando arquivos / Salvando alterações 
 `git add arquivo.txt` = adiciona algo ao repositório // para adicionar multiplas alterações e dar um só commit para elas use *git add .*
 
-`git commit -m "Mensagem" arquivo.txt` = cria um ponto na história do nosso código
+`git commit -m "Mensagem"` = cria um ponto na história do nosso projeto
+
+``git commit -am "Mensagem"` = adiciona/modifica algo e cria um ponto na história do projeto ao mesmo tempo
 
 # Removendo arquivos do repositório git
 `git rm arquivo.txt` = remove arquivo/diretorio 
@@ -27,9 +29,11 @@
 
 `git checkout nome_branch` = te leva até a branch especificada
 
+`git checkout -b nome_branch` = cria uma branch nova e te leva para ela em um mesmo comando
+
 `git merge nome_branch` = mistura a branch citada com a branch que você está
 
-*LÁÁÁÁ NAS NUVENS - GITHUB*
+# LÁÁÁÁ NAS NUVENS - GITHUB
 `git remote add origin https://url.com` = adiciona um repositório externo
 
 `git remove -v` =  serve para ver seus repositórios remotos
@@ -37,3 +41,8 @@
 `git push` = empurra seu repositório local para o github // na primeira vez você precisa criar a branch master no github com *git push -u origin master*
 
 `git config credential.helper store` = salva suas credenciais
+
+`git clone https://url.com` = clona um repositório existente para que você possa trabalhar com ele localmente
+
+`git pull` = puxa o repositório da nuvem
+
