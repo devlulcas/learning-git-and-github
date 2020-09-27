@@ -46,3 +46,4 @@
 
 `git pull` = puxa o repositório da nuvem
 
+TESTANDO A FERRAMENTA DE PULL
