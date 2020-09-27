@@ -27,11 +27,14 @@
 
 `git branch -D nome_branch` = deleta a branch sem dó 
 
+`git merge nome_branch` = mistura a branch citada com a branch que você está
+
+# Uso do checkout
+`git checkout n_commit` = te leva de volta ao commit especificado 
+
 `git checkout nome_branch` = te leva até a branch especificada
 
 `git checkout -b nome_branch` = cria uma branch nova e te leva para ela em um mesmo comando
-
-`git merge nome_branch` = mistura a branch citada com a branch que você está
 
 # LÁÁÁÁ NAS NUVENS - GITHUB
 `git remote add origin https://url.com` = adiciona um repositório externo
@@ -42,8 +45,7 @@
 
 `git config credential.helper store` = salva suas credenciais
 
-`git clone https://url.com` = clona um repositório existente para que você possa trabalhar com ele localmente
+`git clone https://url.com` = clona um repositório/projeto existente para que você possa trabalhar com ele localmente
 
-`git pull` = puxa o repositório da nuvem
+`git pull` = puxa o repositório da nuvem para atualizar o repositório local
 
-TESTANDO A FERRAMENTA DE PULL
