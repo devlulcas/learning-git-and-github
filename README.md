@@ -1,4 +1,8 @@
-# ESTE REPOSITÓRIO TEM COMO ÚNICO OBJETIVO SERVIR COMO UM BLOCO DE ANOTAÇÕES PARA MIM MESMO
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=Learning&message=GIT&color=ffffff&style=for-the-badge&logo=git"/>
+  <img src="https://img.shields.io/static/v1?label=Loving&message=GITHUB&color=ffffff&style=for-the-badge&logo=github"/>
+</p>
+<h1 align="center">ESTE REPOSITÓRIO TEM COMO ÚNICO OBJETIVO SERVIR COMO UM BLOCO DE ANOTAÇÕES PARA MIM MESMO</h1>
 
 # Começo
 `git init` = inicia um repositório
