@@ -2,17 +2,30 @@
   <img src="https://img.shields.io/static/v1?label=Learning&message=GIT&color=ffffff&style=for-the-badge&logo=git"/>
   <img src="https://img.shields.io/static/v1?label=Loving&message=GITHUB&color=ffffff&style=for-the-badge&logo=github"/>
 </p>
+
 <h1 align="center">ESTE REPOSITÓRIO TEM COMO ÚNICO OBJETIVO SERVIR COMO UM BLOCO DE ANOTAÇÕES PARA MIM MESMO</h1>
 
 # Começo
 `git init` = inicia um repositório
 
-# Adicionando arquivos / Salvando alterações 
-`git add arquivo.txt` = adiciona algo ao repositório // para adicionar multiplas alterações e dar um só commit para elas use *git add .*
+# Adicionando modificações ao stage
+`git add nome_do_arquivo` = adiciona um arquivo específico ao stage
+`git add .` = adiciona todos os arquivos modificados em stage
 
+# Adicionando modificações a linha do tempo
 `git commit -m "Mensagem"` = cria um ponto na história do nosso projeto
 
-``git commit -am "Mensagem"` = adiciona/modifica algo e cria um ponto na história do projeto ao mesmo tempo
+`git commit -am "Mensagem"` = adiciona todos os arquivos modificados ao stage e cria um ponto na história do projeto com a mensagem entre aspas
+
+# Alterar mensagem do último commit
+
+`git commit --amend -m "Nova mensagem"` = altera a mensagem do último commit apenas
+
+# Adiciona modificações ao último commit
+
+`git add nome_do_arquivo` = faça isso para adicionar as alterações que vocẽ desejava que fossem colocadas no seu último commit 
+
+`git commit --amend --no-edit` = faça isso para adicionar tais alterações ao último commit e não alterar a mensagem dele
 
 # Removendo arquivos do repositório git
 `git rm arquivo.txt` = remove arquivo/diretorio 
@@ -22,7 +35,7 @@
 
 `git status` = mostra o estado dos seus arquivos
 
-`git show` = mostra as ultima alterações realizadas
+`git show` = mostra as ultimas alterações realizadas
 
 # Uso das branchs (Ramos)
 `git branch nome_branch` = cria nova ramificação do projeto
@@ -39,6 +52,12 @@
 `git checkout nome_branch` = te leva até a branch especificada
 
 `git checkout -b nome_branch` = cria uma branch nova e te leva para ela em um mesmo comando
+
+# Mudar a mensagem do último commit 
+git commit --amend -m "nova mensagem"
+
+# Adicionar arquivos e modificações ao último commit
+git add arquivo
 
 # LÁÁÁÁ NAS NUVENS - GITHUB
 `git remote add origin https://url.com` = adiciona um repositório externo
